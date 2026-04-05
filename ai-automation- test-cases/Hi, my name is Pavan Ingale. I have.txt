@@ -1,0 +1,15 @@
+Hi, my name is Pavan Ingale. I have over 7 years of experience in software testing, primarily in the BFSI domain, including banking, insurance, GST, and internet banking applications.
+
+I started my career with manual testing, where I worked extensively on functional, regression, sanity, and UAT testing. During this phase, I was involved in validating critical business workflows such as payment processing, tax calculations, and insurance policy lifecycle, ensuring alignment with business requirements.
+
+Over the last 4 years, I have transitioned into automation testing using Playwright with JavaScript. In my current role, the framework is already established, and I contribute by extending and maintaining it—creating new test scripts, updating locators based on UI changes, and improving overall test stability. I have also worked on reducing flaky tests by implementing better wait strategies and optimizing selectors.
+
+In addition, I have hands-on experience in API testing and database validation using SQL, where I ensure data accuracy and validate backend responses. I have also worked on mainframe testing, particularly in insurance systems, to validate backend transactions and business rules.
+
+Currently, I am working as an Test II, handling multiple insurance products such as health, accidental, dental, critical illness, and life insurance. My responsibilities include end-to-end testing, automation, and defect management, collaborating closely with Agile teams.
+
+One of the key highlights of my experience is working on an AI-based insurance claims system involving LLMs and agent-based architecture. In this project, I focused on validating response accuracy, relevance, and complete claim processing workflows.
+
+From a domain perspective, I have strong expertise in banking and insurance systems, including payment processing, GST compliance, and policy lifecycle management. This helps me understand complex business logic and test more effectively.
+
+Overall, I bring a balanced mix of manual testing, automation expertise, and strong domain knowledge. I am currently looking for an opportunity where I can further enhance my automation skills and contribute to building scalable and reliable testing solutions.
