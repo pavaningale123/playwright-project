@@ -19,7 +19,7 @@ test('first test', async ({ page }) => {
 // await → used to wait for actions (like page load, click, etc.) to complete before moving to the next step
 
 // Why async and await?
-// - Playwright operations are asynchronous
+// - Playwright operations are asynchronous 
 // - We must wait for each operation to complete before executing the next step
 
 // JavaScript is asynchronous by nature,
