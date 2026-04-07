@@ -12,8 +12,8 @@ test('getByPlaceholder', async({page})=>{
     const logout=await page.getByRole('link',{name:'Log out'});
     await expect(logout).toBeVisible();
 
-    await page.waitForTimeout(5000);
+    await page.waitForTimeout(5000);   
 
-    
+    await page.close();
 
 });
