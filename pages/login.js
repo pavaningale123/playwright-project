@@ -1,4 +1,3 @@
-//import {utils} from '../utility.json'
 const utils = require('../utility.json'); 
 class LoginPage {
   constructor(page) {
