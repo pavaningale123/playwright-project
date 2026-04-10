@@ -1,0 +1,21 @@
+{
+  "credentials": {
+    "username": "pavanol",
+    "password": "test@123"
+  },
+
+  "url": {
+    "baseUrl": "https://demoblaze.com/index.html"
+  },
+
+  "loginPage": {
+    "loginlink": "#login2",
+    "usernameInput": "//input[@id='loginusername']",
+    "passwordInput": "//input[@id='loginpassword']",
+    "loginbuttonclik":"[onclick='logIn()']"
+  },
+
+  "homeProductPage": {
+    "allProductLinks": "//div[@id='tbodyid']//h4//a"
+  }
+}
