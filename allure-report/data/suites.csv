@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","6508","Get Product by ID","chromium","2026-04-10","passed","2026-04-10","","API-get-api-request.spec.js","",""
+"","3944","Handle Multiple Pages","chromium","2026-04-10","passed","2026-04-10","","Handle_Multiple_Pages.spec.js","",""
+"","30101","iframe handling","chromium","2026-04-10","broken","2026-04-10","","iframe-test-handling.spec.js","",""

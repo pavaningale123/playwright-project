@@ -1,0 +1,18 @@
+{
+  data: {
+    id: '5929dd31-ca9d-46d0-8fcb-c61c469d5b8a',
+    collection_id: '552de9d7-6ba3-44f9-8d16-0ee9cc4d0130',
+    project_id: 10848,
+    app_user_id: null,
+    created_by: 104840,
+    created_at: '2026-04-09T16:45:39.148Z',
+    updated_at: '2026-04-09T16:45:39.148Z',
+    deleted_at: null,
+    data: {
+      name: 'Wireless Headphones',
+      price: 59.99,
+      category: 'Electronics',
+      in_stock: true
+    }
+  }
+}
