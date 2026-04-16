@@ -1,5 +1,4 @@
 const utils = require('./utility.json');
-module.exports = { HomeProductPage };
 class HomeProductPage {
   constructor(page) {
     this.page = page;
