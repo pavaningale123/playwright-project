@@ -16,6 +16,10 @@
   },
 
   "homeProductPage": {
-    "allProductLinks": "//div[@id='tbodyid']//h4//a"
+    "allProductLinks": "//div[@id='tbodyid']//h4//a",
+    "Samsung_galaxy_s6": "//a[text()='Samsung galaxy s6']",
+    "Add_to_cart" : "//a[text()='Add to cart']",
+    "Cart" : "//a[text()='Cart']",
+    "Place_order":"//button[text()='Place Order']"
   }
 }

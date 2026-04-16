@@ -23,7 +23,7 @@ export default defineConfig({
   //retries:1,
   retries: process.env.CI ? 2 : 0,
   /* Opt out of parallel tests on CI. */
- workers: process.env.CI ? 2 : undefined,
+  workers: process.env.CI ? 2 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   //reporter: 'html',
   reporter: [ ['html'],['allure-playwright', { outputFolder: 'allure-results' }]],
@@ -38,7 +38,7 @@ export default defineConfig({
 
   use: {
   baseURL: process.env.BASE_URL || 'https://your-app-url.com',
-  trace: 'on-first-retry',
+  trace: 'off',
   screenshot: 'only-on-failure',
   video: 'retain-on-failure',
 },

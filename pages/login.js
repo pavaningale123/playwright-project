@@ -11,7 +11,7 @@ class LoginPage {
   }
 
   /** Login page ui  */
-  async LoginPagegoto() {
+  static async LoginPagegoto() {
     await this.page.goto(utils.url.baseUrl);
     await this.loginlink.waitFor({ state: 'visible' });
     await this.loginlink.click();
