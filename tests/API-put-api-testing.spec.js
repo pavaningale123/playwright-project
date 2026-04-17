@@ -15,4 +15,6 @@ test('put request',async ({request})=>{
     });
     console.log(await response.json());
     await expect(response.status()).toBe(200);
+
+    
 });

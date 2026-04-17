@@ -1,11 +1,17 @@
 {
   "credentials": {
     "username": "pavanol",
-    "password": "test@123"
+    "password": "test@123",
+    "First_name": "TestName"
   },
 
   "url": {
-    "baseUrl": "https://demoblaze.com/index.html"
+    "baseUrl": "https://demoblaze.com/index.html",
+    "Automation_Demo_Site_Register" : "https://demo.automationtesting.in/Register.html"
+  },
+
+    "Automation_Register": {
+    "First_name": "//input[@placeholder='First Name']"
   },
 
   "loginPage": {
