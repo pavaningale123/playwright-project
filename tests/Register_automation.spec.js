@@ -74,10 +74,29 @@ test('alerts test', async ({page})=>{
 //    // await expect(country_select).toBeVisible();
 
 //     await country_select.click();
-
+    //Date Of Birth drop down
+    //year
     await page.mouse.wheel(0, 500);
-    
+    const year = await page.locator("//select[@id='yearbox']");
+    await year.selectOption('1985');
+    await expect(year).toHaveValue('1985');
 
+    //Month
+    await page.getByPlaceholder("Month").selectOption("November");
+
+    //Day
+    await page.locator("//select[@id='daybox']").selectOption('24');
+
+
+    //Password
+    const password = 'Test@' + Math.floor(Math.random() * 10000);
+    console.log(password)
+    await page.locator("//input[@id='firstpassword']").fill(password);
+    await page.locator("//input[@id='secondpassword']").fill(password);
+    
+    await page.getByRole("button",({name:"Submit"})).click();
+
+        await page.waitForTimeout(5000);
     
 
     
