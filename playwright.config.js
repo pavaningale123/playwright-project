@@ -39,8 +39,8 @@ export default defineConfig({
   use: {
   baseURL: process.env.BASE_URL || 'https://your-app-url.com',
   trace: 'off',
-  screenshot: 'only-on-failure',
-  video: 'retain-on-failure',
+  screenshot: 'on',
+  video: 'on',
 },
 
   /* Configure projects for major browsers */

@@ -2,7 +2,8 @@
   "credentials": {
     "username": "pavanol",
     "password": "test@123",
-    "First_name": "TestName"
+    "First_name": "TestName",
+    "address" : "Pune"
   },
 
   "url": {
@@ -11,7 +12,8 @@
   },
 
     "Automation_Register": {
-    "First_name": "//input[@placeholder='First Name']"
+    "First_name": "//input[@placeholder='First Name']",
+    "Address" : "//textarea[@class='form-control ng-pristine ng-valid ng-touched']"
   },
 
   "loginPage": {

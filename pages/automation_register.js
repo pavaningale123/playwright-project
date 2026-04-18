@@ -11,7 +11,9 @@ class Automation_Register {
         //Register UI automation sequence
         async Registerpage(){
             await this.page.goto(utils.url.Automation_Demo_Site_Register);
-            await this.page.First_name.fill(utils.credentials.First_name);
+            await this.first_name.fill(utils.credentials.First_name);
+            await this.page.getByPlaceholder("Last Name").fill("TestLastName");
+            await this.
 
         }
 
@@ -19,4 +21,8 @@ class Automation_Register {
 }
 module.exports = { Automation_Register };
 
+//“We use module.exports to make the class available outside the file. 
+// Without exporting, the class cannot be imported in test files.
+//  It’s required when using CommonJS (require). 
+// In modern Playwright, we usually prefer ES modules using export and import.”
 
