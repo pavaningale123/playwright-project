@@ -9,8 +9,7 @@ test('Get Product by ID', async ({ request }) => {
         'x-api-key': 'pro_c4496d9f6545c35bda0e2743cb94bf22e7b8ee3c951f19f60f1a68e368b37a3a',
         'X-Reqres-Env': 'prod'
       }
-    }
-  );
+    });
 
   expect(response.status()).toBe(200);
   console.log(await response.json());

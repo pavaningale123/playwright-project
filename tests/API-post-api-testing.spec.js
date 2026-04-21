@@ -4,6 +4,7 @@ test('Create Product API', async ({ request }) => {
 var user_id;
   const response = await request.post(
     'https://reqres.in/api/collections/products/records?project_id=10848',
+    https://reqres.in/api/collections/products/records?project_id=14530
     {
       headers: {
         'x-api-key': 'pro_c4496d9f6545c35bda0e2743cb94bf22e7b8ee3c951f19f60f1a68e368b37a3a',
