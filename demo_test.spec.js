@@ -12,3 +12,10 @@ test('test', async ({ page }) => {
   await page.getByRole('textbox', { name: 'Address:' }).click();
   await page.getByRole('textbox', { name: 'Address:' }).fill('pune');
 });
+
+while (true) {
+const isVisible = await page.locator('text=Target Item').isVisible();
+if (isVisible) break;
+
+await page.mouse.wheel(0, 2000); // scroll down 
+ }
