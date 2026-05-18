@@ -39,7 +39,7 @@ export default defineConfig({
   // },
 
   use: {
-  baseURL: process.env.BASE_URL || 'https://your-app-url.com',
+  baseURL: 'https://restful-booker.herokuapp.com/',
   trace: 'off',
   screenshot: 'on',
   video: 'on',

@@ -1,0 +1,11 @@
+{
+    "firstname": "Pavan2",
+    "lastname": "Ingale2",
+    "totalprice": 1002,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
